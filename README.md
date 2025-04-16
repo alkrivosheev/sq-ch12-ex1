@@ -1,6 +1,6 @@
 # sq-ch12-ex1
 
-Используя СУБД H2 в пямяти, создаем REST точку для записи и чтения в БД
+Используя СУБД H2 и PostgreSQL в пямяти, создаем REST точку для записи и чтения в БД
 
 curl -X POST 'http://localhost:8080/purchase' \
 -H 'Content-Type: application/json' \
